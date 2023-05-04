@@ -1,0 +1,81 @@
+body{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    text-align: center;
+    font-family: 'Comme', sans-serif;
+}
+.container{
+    position: relative;
+   margin: auto;
+   padding: 3rem;
+   max-width: 35rem;
+   height: 45rem;
+   
+   
+}
+.container::before{
+    content: "";
+    background-image: url("../img/sunflower.jpg");
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity:0.3;
+    z-index: -1;
+    border-radius: 10px
+}
+h1{
+    font-size: 4rem;
+    color: #510204;
+}
+p{
+    font-size: 2.2rem;
+    color: #510204;
+    
+}
+#increment-btn{
+    width: 20rem;
+    height: 3rem;
+    border-radius: 5px;
+    background-color: rgb(89, 125, 153);
+    margin: 1rem;
+    font-size: 1.5rem;
+    color: #13013a;
+    border: none;
+    outline: none;
+}
+#save-btn{
+    width: 20rem;
+    height: 3rem;
+    border-radius: 5px;
+    background-color: rgb(236, 138, 138);
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #420210;
+    border: none;
+    outline: none;
+}
+#reset-btn{
+    width: 20rem;
+    height: 3rem;
+    border-radius: 5px;
+    background-color: rgb(102, 134, 97);
+    font-size: 1.5rem;
+    color: #023606;
+    border: none;
+    outline: none;
+}
+  #increment-btn:hover{
+    color: #fff;
+    background-color: #e38a2b;
+  }
+  #save-btn:hover{
+    color: #fff;
+    background-color: #e38a2b;
+  }
+  #reset-btn:hover{
+    color: #fff;
+    background-color: #e38a2b;
+  }
